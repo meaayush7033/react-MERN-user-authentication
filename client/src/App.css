@@ -1,0 +1,194 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #a6e2d0;
+    height:100vh
+}
+
+.navbar {
+    background-color: #084231;
+}
+
+.navbar-brand {
+    color: rgb(31, 1, 18);
+    padding-left: 1rem;
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.navbar-brand span {
+    color: rgb(157, 209, 209)
+}
+
+.nav-link {
+    color: rgb(235, 122, 122);
+    font-size: 1.5rem;
+}
+
+.home {
+    width: 100vw;
+    height: 90vh;
+}
+
+.home p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(3, 44, 46);
+}
+
+.home h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.home span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #064230;
+}
+
+.btn{
+    font-size: 1.5rem;
+}
+
+.signup, .signin, .contact {
+    background-color: #a6e2d0;
+}
+
+.signup .card,.signin .card {
+    border-radius: 50px;
+    border-color: #064230;
+}
+
+.signup input, .signin input, .contact input{
+    height:3.5rem;
+    font-size: 1.5rem;
+}
+
+.signup label, .signin label{
+    font-size: 1.5rem;
+}
+
+::placeholder{
+    font-size: 1.5rem
+}
+
+.card-color{
+    background-color: #a6e2d0;
+}
+
+.fas{
+    font-size: 2rem;
+    margin: auto 0;
+}
+
+.fab{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(7, 68, 68);
+    border: none;
+}
+.fab:hover{
+    color: azure;
+}
+
+.signin{
+    height: 90vh;
+}
+
+.signin p , .signup p{
+    font-size: 2rem;
+}
+
+.signin span button{
+    font-size: 2.4rem;
+    font-weight: 600;
+    border: none;
+}
+
+
+.contact{
+    margin-top: 4rem;
+}
+
+.contact .heading{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.contact .para{
+    font-size: 1.5rem;
+}
+
+.contact textarea{
+    height:15rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.contact .container{
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+}
+
+.contact .card{
+    border: none;
+}
+
+.about form{
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+}
+
+.about img{
+    width: 150px;
+    height: 180px;
+}
+
+.about .nav-link{
+    background-color: #a6e2d0;
+    border: none;
+}
+
+.about .btn{
+    border: none;
+}
+
+.about h5{
+    font-size: 2rem;
+}
+
+.about h6{
+    font-size: 1.5rem;
+}
+
+.about p{
+    font-size: 1.3rem;
+}
+
+.profile-work p 
+{
+    font-size: 2rem;
+    color: #064230;
+}
+
+.profile-work a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(1, 22, 22);
+}
+
+
+.tab-content label{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.login-error{
+    height: 3rem;
+}
+
+.success{
+    height:2rem
+}
